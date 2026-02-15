@@ -45,3 +45,22 @@ git push
 # sprzątanie
 git branch -d feat/koszyk
 ```
+
+
+## 3. Cofanie i ratowanie
+```bash
+# cofnij ostatni commit (zmiany zostają w roboczym katalogu)
+git reset --soft HEAD~1
+
+# cofnij commit i usuń zmiany z dysku
+git reset --hard HEAD~1
+
+# cofnij tylko staging (git add)
+git restore --staged plik.js
+
+# cofnij zmiany w pliku
+git restore plik.js
+
+# ostatni ratunek – co miałem w ostatnim commicie
+git log -1 -p
+```
