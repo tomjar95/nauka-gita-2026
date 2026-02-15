@@ -64,3 +64,11 @@ git restore plik.js
 # ostatni ratunek – co miałem w ostatnim commicie
 git log -1 -p
 ```
+
+
+## 4. Podgląd historii
+```bash
+git log --oneline --graph --decorate --all
+git log --oneline -8               # ostatnie 8 commitów
+git log --oneline --author="Jan"   # tylko Jana
+```
