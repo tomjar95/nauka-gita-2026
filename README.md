@@ -18,8 +18,11 @@ git commit -m "pierwszy commit"
 # albo klonujemy istniejące
 git clone https://github.com/user/projekt.git
 cd projekt
+```
 
+## 2. Gałęzie – najprostszy sensowny flow
 
+```bash
 # zobacz gdzie jesteś i jakie gałęzie istnieją
 git branch
 
@@ -41,3 +44,4 @@ git push
 
 # sprzątanie
 git branch -d feat/koszyk
+```
